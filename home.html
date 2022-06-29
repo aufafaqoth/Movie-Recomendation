@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <title>JoyMax23</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="home.html">JOYMAX.23</a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li class="active"><a href="home.html">Home</a></li>
+                        <li><a href="order.html">Order</a></li>
+                        <li><a href="payment.html">Payment</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+  <div class="container-up">
+      <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/jumanji lanscape.jpg" alt="jumanji film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/avatar lanscape.jpg" alt="avatar film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/batman lanscape.jpg" alt="batman film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/bp lanscape.jpg" alt="blackpink film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/eternals lanscape.jpg" alt="eternals film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/tenet lanscape.jpg" alt="tenet film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/yuni lanscape.png" alt="yuni film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/warning lanscape.jpg" alt="warning film"></a>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <section>
+      <div class="sign">
+        <img src="/image/Image.png" alt="health protocol">
+      </div>
+    </section>
+    <div class="container-down">
+      <!-- Swiper -->
+    <div class="swiper Swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="backstage.html"><img  class="gambar" src="image/backstage.jpg" alt="backstage film"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="jungle.html"><img src="image/jungle cruise.jfif" alt="jungle cruise film"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="home.html"><img src="image/lifes beautiful.jpg" alt="lifes beautiful film"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="notimetodie.html"><img src="image/no tme todie.jpg" alt="no time to die film"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="obvilion.html"><img src="image/obvilion.jpg" alt="obvilion film"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="paranoia.html"><img src="image/PARANOIA.jpg" alt="jumanji film"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="shangchi.html"><img src="image/shang chi 2.jpg" alt="shangchi film"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="tika.html"><img src="image/teka tika.jpg" alt="teka-teki tika film"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="warning.html"><img src="image/warning.jpg" alt="warning film"></a>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <footer>
+      <div class="foot">
+          <p>Copyright &copy; 2022 Kelompok 3. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 2,
+          spaceBetween: 10,
+          centeredSlide: false,
+          grabCursor: true,
+          freeMode:true,
+          slidesPerGroup: 2,
+          loopAdditionalSlides: 2,
+          loop: true,
+
+          speed: 500,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+      <script>
+        var swiper = new Swiper(".Swiper", {
+          slidesPerView: 5,
+          spaceBetween: 10,
+          grabCursor: true,
+          centeredSlide: true,
+          freeMode:true,
+          slidesPerGroup: 4,
+          loop: true,
+          loopFillGroupWithBlank: false,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+</html>

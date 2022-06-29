@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    //"php.validate.executablePath": "C://zdb//php//php.exe",
+    "editor.fontSize": 14,
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontSize": 14,
+    "workbench.colorTheme": "Noctis Lux", 
+    "workbench.iconTheme": "vscode-icons",
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css?v=<php echo time(); ?>">
+    <title>JoyMax23</title>
+</head>
+<body>
+    <!---login---->
+    <div class="center">
+        <img src="/image/joymax.png" alt="logoJoyMax23">
+        <form action="connect.php" method="post">
+            <div class="field">
+                <label for="mail">E-mail</label><br>
+                <input type="email" placeholder="Entry-Email@domain.com" id="mail" required><br>
+            </div>
+            <div class="field">
+                <label for="nama">Nama</label><br>
+                <input type="text" placeholder="Entry Nama Kamu" name="Nama_Penonton" id="Nama" required><br>
+            </div>
+            <div class="field">
+                <label for="usia">Usia</label><br>
+                <input type="number" placeholder="Entry Usia Kamu" name="Usia_Penonton" id="Usia" required><br>
+            </div>
+            <div class="field">
+                <label for="jk">Jenis Kelamin</label><br>
+                <input type="text" placeholder="Perempuan/Laki-laki" name="Jenis_Kelamin" id="jk" required><br><br>
+            </div>
+           <input class="in" type="submit" value="Lanjut" name="Lanjut">
+    </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <title>JoyMax23</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="home.html">JOYMAX.23</a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="order.html">Order</a></li>
+                        <li><a href="payment.html">Payment</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="info-film">
+            <img src="/image/backstage lanscape.jpg" alt="backstage film poster">
+            <div class="desc">
+                <h1>BACKSTAGE</h1>
+                <h5>Genre</h5>
+                <div class="actor">
+                    <p>Actors: <span></span></p>
+                    <p>Director: <span></span></p>
+                    <p>Writer: <span></span></p>
+                </div>
+            </div>
+            <div class="info-part">
+              <p class="sinopsis">Sinopsis: <br><span>Sebagai kakak beradik di dunia nyata, Vanesha Prescilla dan Sissy Priscillia juga akan berperan sebagai kakak beradik di film Backstage. Backstage menceritakan tentang perjuangan Elsa (Vanesha Prescilla) yang ingin menjadi seorang bintang terkenal.
+                Sebelum itu, Elsa harus menggunakan suara kakaknya, Sandra (Sissy Priscillia) untuk menjadi penyanyi. Meski rasa-rasanya mustahil terjadi, karena perkembangan zaman dan teknologi yang semakin canggih akhirnya semua bisa diatur sedemikian rupa.
+                Elsa kemudian berada di atas panggung sementara Sandra yang harus bernyanyi di belakang panggung. Berkat itu semua, Elsa menjadi seorang penyanyi yang sukses. Kesuksesan Elsa membawa kebahagiaan bagi keluarganya, termasuk Sandra yang rela berkorban dan kehilangan mimpinya demi sang adik.
+                Seiring berjalannya waktu dan karier Elsa yang semakin gemilang, kehidupan mereka lalu berubah. Sandra meminta kepada Elsa untuk mengakhiri semua pembohongan ini. Kakak beradik itu bertengkar dan saling menyalahkan satu sama lain.
+              </span></p>
+              <h1>Harga: <span>Rp. 50.000,-</span></h1>
+              <a href="payment.html"><input type="button" value="Order"></a>
+          </div>
+        </div>
+    </section>
+    <div class="container-down">
+        <!-- Swiper -->
+      <div class="swiper Swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="home.html"><img  class="gambar" src="image/backstage.jpg" alt="jumanji film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/jungle cruise.jfif" alt="jumanji film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/lifes beautiful.jpg" alt="jumanji film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/no tme todie.jpg" alt="jumanji film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/obvilion.jpg" alt="jumanji film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/PARANOIA.jpg" alt="jumanji film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/shang chi 2.jpg" alt="jumanji film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/teka tika.jpg" alt="jumanji film"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="home.html"><img src="image/warning.jpg" alt="jumanji film"></a>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+
+      <script>
+        var swiper = new Swiper(".Swiper", {
+          slidesPerView: 5,
+          spaceBetween: 10,
+          grabCursor: true,
+          centeredSlide: true,
+          slidesPerGroup: 4,
+          loop: true,
+          loopFillGroupWithBlank: false,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>

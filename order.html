@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JoyMax23</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="home.html">JOYMAX.23</a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li class="active"><a href="order.html">Order</a></li>
+                        <li><a href="payment.html">Payment</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="pesan">
+        <form method="POST" action="payment.html">
+            <div class="chair">
+                <div class="row">
+                    <label for="row">Kursi:</label><br>
+                    <select name="row" id="row" required>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                    </select>
+                </div>
+            </div>
+            <div class="chair">
+                <div class="seat">
+                    <label for="seat">Seat:</label><br>
+                    <select name="seat" id="seat" required>
+                        <option value="one">1</option>
+                        <option value="two">2</option>2</option>
+                        <option value="three">3</option>
+                        <option value="four">4</option>
+                        <option value="five">5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="ruang">
+                <label for="ruang">Ruang:</label><br>
+                <input type="text" name="ruang" id="ruang" placeholder="Entry nomor ruangan" required><br>
+            </div>
+            <div class="ruang">
+                <label for="bioskop">Bioskop:</label><br>
+                <input type="text" name="bioskop" id="bioskop" placeholder="Entry nama bioskop" required><br>
+            </div>
+            <div class="waktu">
+                <label for="tgl">Tanggal:</label><br>
+                <input type="date" name="tgl" id="tgl" required><br><br>
+            </div>
+            <div class="waktu">
+                <label for="jam">Waktu:</label><br>
+                <input type="time" name="jam" id="jam" required><br><br>
+            </div>
+           <input class="in" type="submit" value="Lanjut" onClick="location.href='/payment.html'" required>      
+        </form>
+    </div>
+    <footer>
+        <div class="foot">
+            <p>Copyright &copy; 2022 Kelompok 3. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
